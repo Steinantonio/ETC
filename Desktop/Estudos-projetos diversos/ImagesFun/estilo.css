@@ -1,0 +1,222 @@
+﻿/*
+div {
+	width : 100px;
+	height :100px;
+	position : relative;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo;
+	animation-duration:2s;
+	background-color:blue;
+	animation-iteration-count: infinite;
+            
+
+}
+
+
+
+@keyframes fundo { 
+	0% {left: 0px; top : 0px; width : 25px; height:25px; }
+	25% { left: 300px; top : 0px;width : 50px; height:50px;}
+	50%{left : 400px; top : 300px;width : 75px; height:75px;}
+	75%{left: 0px; top : 200px;width : 89px; height:89px;}
+	95%{left: 0px; top : 200px;width : 95px; height:95px;}
+	100%{left: 0px; top : 0px;width : 25px; height:25px;}
+}
+
+
+
+.aloka {
+	width : 100px;
+	height :100px;
+	position : relative;
+	top: 20px;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo2;
+	animation-duration:5s;
+	background-color:orange;
+
+}
+@keyframes fundo2 { 
+	0% {left 40px; top : 10px; width : 25px; height:25px; }
+	25% { left: 30px; top : 250px;width : 50px; height:50px;}
+	50%{left : 300px; top : 500px;width : 75px; height:75px;}
+	75%{rleft:400px; top : 34px;width : 89px; height:89px;}
+	95%{left: 180px; top : 53px;width : 95px; height:95px;}
+	100%{left: 40px; top : 10px;width : 25px; height:25px;}
+}
+
+
+#div1 {
+	width : 100px;
+	height :100px;
+	position : relative;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo1;
+	animation-iteration-count: infinite;
+	background-color:orange;
+	animation-timing-function:ease-in-out;
+
+
+}
+@keyframes fundo1 { 
+	0% {left: 500px; top : 0px; }
+	50%{left:540px;top:0px;}
+	100%{left: 500px; top : 0px;}
+	
+
+	
+}
+
+
+#div2{
+width : 100px;
+	height :100px;
+	position : relative;
+	top: 20px;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo2;
+	animation-iteration-count: infinite;
+	background-color:orange;
+animation-timing-function:ease-in-out;
+
+}
+@keyframes fundo2 { 
+	0% {left: 500px; top : 0px; }
+	50%{left:560px;top:0px;}
+	100%{left: 480px; top : 0px;}
+	
+	
+}
+#div3{
+width : 100px;
+	height :100px;
+	position : relative;
+	top: 20px;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo3;
+	animation-iteration-count: infinite;
+	background-color:orange;
+animation-timing-function:ease-in-out;
+
+}
+@keyframes fundo3 { 
+	
+	0% {left: 500px; top : 0px; }
+	50%{left:580px;top:0px;}
+	100%{left: 460px; top : 0px;}
+
+	
+	
+}
+#div4{
+width : 100px;
+	height :100px;
+	position : relative;
+	top: 20px;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo4;
+	animation-iteration-count: infinite;
+	background-color:orange;
+animation-timing-function:ease-in-out;
+
+}
+@keyframes fundo4 { 
+	
+	0% {left: 500px; top : 0px; }
+	50%{left:600px;top:0px;}
+	100%{left: 430px; top : 0px;}
+
+}
+#div5{
+width : 100px;
+	height :100px;
+	position : relative;
+	top: 20px;
+	border : 1px solid black;
+	border-radius: 50px;
+	animation-name: fundo5;
+	animation-iteration-count: infinite;
+	background-color:orange;
+animation-timing-function:ease-in-out;
+
+}
+@keyframes fundo5{ 
+	
+	0% {left: 500px; top : 0px; }
+	50%{left:630px;top:0px;}
+	100%{left: 380px; top : 0px;}
+
+	
+}
+ ordem de animação,    -- name, duration, function,delay,count,direction 
+
+*/
+
+
+
+
+#bg { 
+	background-image: url ("dog1.jpg");
+	background-repeat : repeat-x;
+	position:relative;
+	height: 100%;
+	width : 100%;
+	top:0;
+	left:0;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

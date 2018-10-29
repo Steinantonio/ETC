@@ -1,0 +1,20 @@
+﻿
+#bg { 
+background-color: #348cb2;
+background-image: url("bg.jpg");
+background-position:bottom left;
+background-repeat: repeat-x;
+position:fixed;
+left:0;
+top:0;
+height:100%;
+width:10000px;
+animation: bganimado 350s linear infinite;
+}
+ 
+ @keyframes  bganimado { 
+0%   { transform: translate3d(0,0,0);}
+100% { transform: translate3d(-10000px,0,0);} 
+
+
+}

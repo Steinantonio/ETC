@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<script>
+function valida() {
+    
+    var campos = document.getElementsByName("nome");
+    var campoNOME = campos [0];
+    var nome = campoNOME.value;
+        if ((nome.length > 3)){
+                return true;
+            
+        }else { 
+        campoNOME.style.backgroundColor="red";
+        
+        alert ("nome precisa ser maior"); 
+        return false;
+    }
+}
+
+
+</script>
+</head>
+
+<body>
+<form onSubmit="return valida();" action="processando.html">
+    <input type="text" name="nome">
+       <input type="submit">
+   
+</form>
+
+<script>
+function andale(){
+    alert ("BORA");
+}
+    //setTimeout ("andale()",1000);
+    //setInterval ("andale()",5000); loo de alerts.
+    
+</script>
+
+</body>
+</html> 
+
+
+-------------------------------------------------------------------------------------------,
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+submetidos
+
+
+<script> 
+function voltar() {
+history.back();
+
+}
+ setTimeout("voltar()", 10000);
+ 
+
+function Cont()
+
+
+
+</script>
+</body>
+</html>

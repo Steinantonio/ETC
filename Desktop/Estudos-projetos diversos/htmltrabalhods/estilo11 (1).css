@@ -1,0 +1,39 @@
+﻿div {
+position:relative;
+float:left;
+}
+#header{
+border:2px solid black;
+width:90%;
+height:80px;
+margin-left:4.5%;
+}
+#navi{
+border:2px solid black;
+width:20%;
+height:450px;
+margin-left:4.5%;
+margin-top:1.5%;
+}
+#section{
+border:2px solid black;
+width:68%;
+height:450px;
+margin-top:1.5%;
+margin-left:1.5%;
+}
+
+#footer {
+border:2px solid black;
+width:90%;
+height:200px; 
+margin-left:4.5%;
+margin-top:1.5%;
+}
+
+@media screen and (max-width:300px){
+#navi {
+height:100px;
+}
+}
+

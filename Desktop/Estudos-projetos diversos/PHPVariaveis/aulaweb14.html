@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<script> 
+		/*alert ("alerta");
+		console.log( "i am o mestre em javascripto" );
+		console.log( x );
+		//alert("eu sei javascript");
+		*/
+		
+		function valida() {			
+				var campo_nome = document.getElementsByName("nome");
+			 	var nome = (campo_nome[0]).value;
+				
+				if (nome == ""){
+				alert ("campo obrigatório");
+				campo_nome[0].style.backgroundColor = "red"; 
+				}else {
+					alert ("ola "+ nome);
+				}return false;
+
+					
+		}
+				
+	</script>
+    <script src ="am.js"></script>	
+	
+<meta charset="UTF-8" />
+</head>
+<body>
+	<input type="text" name="nome">
+    <form onSubmit="return valida();">    
+     <input type="submit">
+     
+     
+    </form>
+	<script>
+		console.log("i am the master");
+	</script>
+    
+
+</body>
+</html>
